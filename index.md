@@ -26,6 +26,8 @@ Realizamos un comit colocando la correspondiente etiqueta.
 
 ![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-03%2019-02-13.png)
 
+Realizamos un push para subir los archivos generados al repositorio remoto. $git push "nombre-remoto" " nombre-rama"
+
 ![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-03%2019-06-08.png)
 
 ![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-03%2019-39-48.png)
