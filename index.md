@@ -1,3 +1,53 @@
+
+INCLUIR IMAGENES
+
+![alt text](http://url/to/img.png)
+![alt text]()
+
+
+
+
+Creamos un repositorio en Github y el usuario1 se clona el repositorio.
+![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-09-28%2016-05-12.png)
+
+Creamos la rama devUsuario1, aunque realmente la desarrollamos desde main.
+
+![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-09-28%2016-13-42.png)
+
+Creamos las ramas sobre las que trabajaran el resto de compañeros: devUsuario2, devUsuario3
+![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-03%2018-56-45.png)
+
+Se crea la plantilla del proyecto siguendo la estructura marcada. Se agregan los archivos resultantes.
+$git add. como la cantidad de archivos es grande, se utiliza la opcion $git add .
+
+![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-03%2019-00-32.png)
+
+Realizamos un comit colocando la correspondiente etiqueta.
+
+![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-03%2019-02-13.png)
+
+![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-03%2019-06-08.png)
+
+![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-03%2019-39-48.png)
+
+![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-03%2019-40-02.png)
+![alt text]()
+![alt text]()
+![alt text]()
+![alt text]()
+![alt text]()
+![alt text]()
+![alt text]()
+![alt text]()
+![alt text]()
+![alt text]()
+![alt text]()
+
+
+
+
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/hachemico/Practica_sistemaControlVersiones/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
