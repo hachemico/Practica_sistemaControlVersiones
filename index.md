@@ -30,30 +30,38 @@ Realizamos un push para subir los archivos generados al repositorio remoto. $git
 
 ![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-03%2019-06-08.png)
 
-![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/devUsuario2/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-09-28%2016-05-12.png)
+Como vemos a continuación vemos que el remoto de Github queda configurado con las ramas.
 
-![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/devUsuario2/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-09-28%2016-13-42.png)
+![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/devUsuario2/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-03%2019-58-57.png)
 
-![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/devUsuario2/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-03%2018-56-45.png)
+DESARROLLO DEL FEATURE "CONTENIDO HTML" y "ATRIBUTOS HTML"  USUARIO 2
+<hr>
 
-![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/devUsuario2/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-03%2019-00-32.png)
+![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/devUsuario2/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-03%2020-04-22.png)
 
-![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/devUsuario2/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-03%2019-02-13.png)
+![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/devUsuario2/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-03%2022-00-06.png)
 
-![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/devUsuario2/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-03%2019-06-08.png)
+![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/devUsuario2/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-03%2022-12-29.png)
 
-![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/devUsuario2/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-03%2019-39-48.png)
+![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/devUsuario2/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-03%2022-13-02.png)
 
-![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/devUsuario2/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-03%2019-40-02.png)
+
+![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/devUsuario2/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-03%2022-13-33.png)
+
 
 ![alt text]()
 ![alt text]()
 ![alt text]()
 ![alt text]()
 ![alt text]()
+![alt text]()
+![alt text]()
+![alt text]()
 
-
-
+![alt text]()
+![alt text]()
+![alt text]()
+![alt text]()
 
 
 
