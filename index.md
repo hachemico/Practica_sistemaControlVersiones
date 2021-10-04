@@ -123,8 +123,46 @@ Se modifica los archivos, para que todo funcione y se añaden los archivos al st
 
 ![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2011-36-37.png)
 
+Realizamos un push para actualizar el repositorio.
+![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2011-39-32.png)
+
+
+<hr>
+<h3>ETIQUETAR PROYECTO Y CREAR RAMA TEST </h3>
+<hr>
+
+Se puede etiquetar un commit ya realizado, pero necesitamos conocer el Hash del comit para poder asociarlo.
+$git log --graph --all
+
+![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2012-03-42.png)
+
+Creamos el tag: v1.0, para ello:
+git tag -a nombre_tag -m “Mensaje asociado al tag” hash_asociado_al_commit
+
+![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2012-06-03.png)
+
+Como se puede observar si ejecutamos de nuevo el log. Aparece el commit de la fusión del proyecto con la tag v1.0.
+
+![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2012-06-24.png)
+
+Para crear la rama test. Se crea de modo local con $git branch "nombre-rama". No colocamos sobre la misma y realizamos un merge de main para tener una copia del proyecto contenido por main.
+
+Como no vamos a realizar cambios y solo queremos subirlo al repositorio remoto. $git push "nombre-remoto" "rama-remoto"
+
+![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2012-12-25.png)
+
+![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2012-12-48.png)
+
+
 ![alt text]()
 
+![alt text]()
+![alt text]()
+![alt text]()
+![alt text]()
+![alt text]()
+![alt text]()
+![alt text]()
 
 ## Welcome to GitHub Pages
 
