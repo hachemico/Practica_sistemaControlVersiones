@@ -1,6 +1,7 @@
 
 <h1> PRÁCTICA SISTEMAS CONTROL VERSIONES </h1>
-
+<h3> Hugo Micó 2ºDAW - 2021 </h3>
+<hr>
 <h3> ¿Que es GIT y GITHUB ?</h3>
 
 ![alt text](https://i.blogs.es/bd50eb/github_logo/1366_2000.png)
@@ -29,9 +30,38 @@ es ese con el que los desarrolladores pueden administrar su proyecto, ordenando 
 nuevas versiones que sacan de sus aplicaciones para evitar confusiones. 
 Así, al tener copias de cada una de las versiones de su aplicación, no se perderán los estados anteriores cuando 
 se va a actualizar.
-
-
 ```
+<h3> ¿Que es GITflow, Github Flow ?</h3>
+
+L metodología Git flow, es un flujo de trabajo aplicado a un repositorio Git, definiendo un modelo estricto de ramificación diseñado
+en torno a los lanzamientos del proyecto. Es ideal para proyectos que lleven una planificación de entregas iterativas. 
+Permite la paralelización del desarrollo mediante ramas independientes para la preparación, mantenimiento y publicación 
+de versiones del proyecto así como soporta la reparación de errores en cualquier momento.
+
+![alt text](https://cleventy.com/wp-content/uploads/2020/03/git-model-1.png)
+
+<h6>IMPLEMENTACIÓN</h6>
+Para el desarrollo del proyecto se ha optado por realizar un esquema en forma de arbol.
+Se parte de una rama principal Main en la que se despligará el proyecto inicialmente.
+
+Como van a participar 3 usuarios para realizar la estructura y las features, se crea:
+- devUsuario1
+- devUsuario2
+- devUsuario3
+
+Así mismo se creara una rama de Test donde volcaremos el proyecto una vez este haya alcanzado la version v1.0.
+
+Para el control de la información, se creará otra rama, Github Pages: en la que añadiremos las descripciones oportunas.
+
+Por todo esto finalmente contaremos con estas ramas.
+
+- Main
+- Test
+- devUsuario1
+- devUsuario2
+- devUsuario3
+
+<hr>
 
 <h3>DESAROLLO INICIAL DEL PROYECTO</h3>
 <hr>
