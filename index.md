@@ -145,6 +145,10 @@ Como se puede observar si ejecutamos de nuevo el log. Aparece el commit de la fu
 
 ![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2012-06-24.png)
 
+Para que las etiquetas aparezcan en el repositorio, relizaremos un:
+
+$git push origin --tags
+
 Para crear la rama test. Se crea de modo local con $git branch "nombre-rama". No colocamos sobre la misma y realizamos un merge de main para tener una copia del proyecto contenido por main.
 
 Como no vamos a realizar cambios y solo queremos subirlo al repositorio remoto. $git push "nombre-remoto" "rama-remoto"
