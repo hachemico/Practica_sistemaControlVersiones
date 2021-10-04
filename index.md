@@ -110,12 +110,14 @@ Nos aparece un conflicto que tenemos que arreglar manualmente. Añadimos los arc
 
 ![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2011-24-08.png)
 
+![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2011-24-19.png)
+
 Ahora que ya tenemos todo lo necesario cambiamos a la rama Principal "main". Sobre la que vamos a aplicar un merge de la rama devUsuario3.
 $sudo merge "rama-fusionar"
 
-![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2011-24-19.png)
-
 ![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2011-26-52.png)
+
+Se modifica los archivos, para que todo funcione y se añaden los archivos al stage, seguido de commit.
 
 ![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2011-36-25.png)
 
