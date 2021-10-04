@@ -222,6 +222,8 @@ Los ganchos de Git son scripts de shell que se ejecutan automáticamente antes o
 mas info : https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks
 ```
 ```
+<h6> npm install al realizar un checkout o clone </h6>
+
 Para realizar un hook, tenemos que declararlo dentro de la carpeta .git/.hooks.
 Podemos crearlo o editar uno de los ya existentes, quitandole la extensión .example.
 ```
@@ -243,15 +245,36 @@ $sudo chmod 776 nombre-hook
 
 ![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2015-47-35.png)
 
-```
+<h6> Comprobar mensaje commit </h6>
 
 ```
+Lo primero es implementar el hook, en este caso se ha seguido un ejemplo de StackOverflow. Definiendo un pattern y comparandolo. Si se cumple el patrón continua con el commit, sino cumple exit 1 mostrando el mensaje de error y parando el commit al recibir este un valor distinto de 0.
+```
+```
+https://stackoverflow.com/questions/5393178/get-commit-message-in-git-hook
+```
+
+![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2016-44-14.png)
+
+![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2016-44-56.png)
+
+```
+Tenemos que aplicar derechos de ejecución para que funcione. $sudo chmod 777 nombre-hook
+```
+
+![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2016-47-24.png)
+
+![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2016-48-23.png)
+
+```
+Realizamos pruebas para confirmar que funciona.
+```
+
+![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2016-48-59.png)
+
+![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2016-50-20.png)
 
 
-
-![alt text]()
-![alt text]()
-![alt text]()
 
 ## Welcome to GitHub Pages
 
