@@ -332,6 +332,15 @@ Realizamos pruebas para confirmar que funciona.
 
 ![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2016-50-20.png)
 
+<hr>
+<h5> Subir carpeta Hooks al repositorio </h5>
 
+```
+Creamos un directodio denominado githooks en nuestro repositorio local. 
+Copiamos los archivos y Los subimos al repositorio remoto.
+En mi caso se encuentra dentro de la carpeta HTML5bilerplate junto con el resto de archicos del proyecto.
+```
+
+![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2017-49-25.png)
 
 
