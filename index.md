@@ -60,6 +60,14 @@ Como podemos observar, se ha hecho un commit en la rama correspondiente devUsuar
 
 ![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/devUsuario2/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-03%2022-13-02.png)
 
+<hr>
+<h3>DESARROLLO DEL FEATURE " ESTILOS CSS " USUARIO 3</h3>
+<hr>
+
+El usuario3 clona el repositorio sobre el que va a trabajar.
+
+Se esperaría que en el repositorio solo aparecieran los archivos generados por el Usuario1 en la configuración inicial, pero tras el commit del Usuario2,
+el usuario1 ha realizado un Pull request, para adaptar ambos proyectos por lo que, si que apareceran los cambios sobre el repositorio que va a clonar el usuario2.
 
 ![alt text]()
 
