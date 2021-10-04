@@ -69,15 +69,21 @@ El usuario3 clona el repositorio sobre el que va a trabajar.
 Se esperaría que en el repositorio solo aparecieran los archivos generados por el Usuario1 en la configuración inicial, pero tras el commit del Usuario2,
 el usuario1 ha realizado un Pull request, para adaptar ambos proyectos por lo que, si que apareceran los cambios sobre el repositorio que va a clonar el usuario2.
 
-![alt text]()
+![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/devUsuario3/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2009-26-41.png)
 
 
-![alt text]()
-![alt text]()
-![alt text]()
-![alt text]()
-![alt text]()
-![alt text]()
+![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/devUsuario3/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2009-32-15.png)
+
+![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/devUsuario3/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2009-32-47.png)
+
+![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/devUsuario3/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2009-33-12.png)
+
+![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/devUsuario3/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2010-00-18.png)
+
+![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/devUsuario3/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2010-00-49.png)
+
+![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/devUsuario3/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2010-01-09.png)
+
 ![alt text]()
 ![alt text]()
 
