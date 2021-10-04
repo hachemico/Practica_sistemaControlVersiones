@@ -9,54 +9,78 @@ INCLUIR IMAGENES
 <h3>DESAROLLO INICIAL DEL PROYECTO</h3>
 <hr>
 
+```
 Creamos un repositorio en Github y el usuario1 se clona el repositorio.
+```
+
 ![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-09-28%2016-05-12.png)
 
+```
 Creamos la rama devUsuario1, aunque realmente la desarrollamos desde main.
-
+```
 ![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-09-28%2016-13-42.png)
 
+```
 Creamos las ramas sobre las que trabajaran el resto de compañeros: devUsuario2, devUsuario3
+```
+
 ![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-03%2018-56-45.png)
 
+```
 Se crea la plantilla del proyecto siguendo la estructura marcada. Se agregan los archivos resultantes.
 $git add. como la cantidad de archivos es grande, se utiliza la opcion $git add .
+```
 
 ![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-03%2019-00-32.png)
 
+```
 Realizamos un comit colocando la correspondiente etiqueta.
+```
 
 ![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-03%2019-02-13.png)
 
+```
 Realizamos un push para subir los archivos generados al repositorio remoto. $git push "nombre-remoto" " nombre-rama"
+```
 
 ![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-03%2019-06-08.png)
 
+```
 Como vemos a continuación vemos que el remoto de Github queda configurado con las ramas.
+```
 
 ![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/devUsuario2/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-03%2019-58-57.png)
+
 <hr>
 <h3>DESARROLLO DEL FEATURE "CONTENIDO HTML" y "ATRIBUTOS HTML"  USUARIO 2</h3>
 <hr>
 
+```
 Usuario 2 clona el repositorio de la rama principal del proyecto. Cambia a la rama devUsuario2, desde la cual trabajará.
+```
 
 ![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/devUsuario2/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-03%2020-04-22.png)
 
+```
 Con los features desarrollados, se añaden los archivos al stage, previo al commit.
 $git add "nombre-archivo"
 $git commit -m "comentario-commit"
+```
 
 ![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/devUsuario2/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-03%2022-00-06.png)
 
+```
 Con esto hacemos un push al remoto, teniendo en cuenta, la rama a la que queremos subir los cambios, en este caso estamos
 trabajando con la rama devUsuario2, y queremos actualizar la rama en /remote/origin/devUsuario2, por lo que:
 
 $sudo git push "nombre-remoto" "nombre-rama"
+```
 
 ![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/devUsuario2/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-03%2022-12-29.png)
 
+```
 Como podemos observar, se ha hecho un commit en la rama correspondiente devUsuario2.
+```
 
 ![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/devUsuario2/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-03%2022-13-02.png)
 
@@ -64,28 +88,35 @@ Como podemos observar, se ha hecho un commit en la rama correspondiente devUsuar
 <h3>DESARROLLO DEL FEATURE " ESTILOS CSS " USUARIO 3</h3>
 <hr>
 
+```
 El usuario3 clona el repositorio sobre el que va a trabajar.
-
+```
+```
 Se esperaría que en el repositorio solo aparecieran los archivos generados por el Usuario1 en la configuración inicial, pero tras el commit del Usuario2,
 el usuario1 ha realizado un Pull request, para adaptar ambos proyectos por lo que, si que apareceran los cambios sobre el repositorio que va a clonar el usuario2.
+```
 
 ![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/devUsuario3/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2009-26-41.png)
 
 
 ![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/devUsuario3/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2009-32-15.png)
 
+```
 Usuario 3 crea su rama para desarrollar el feature, situandose en la rama devUsuario3.
+```
 
 ![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/devUsuario3/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2009-32-47.png)
 
 ![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/devUsuario3/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2009-33-12.png)
 
+```
 Se desarrolla el feature siguiendo las especificaciones del cliente. Una vez completado el proceso, añadimos los archivos al stage, commit y push para actualizar la rama en el remoto.
-
+```
+```
 $git add "nombre-archivo"
 $git commit -m "nombre comentario"
 $git push "nombre-remoto" "nombre-rama"
-
+```
 ![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/devUsuario3/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2010-00-18.png)
 
 ![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/devUsuario3/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2010-00-49.png)
@@ -95,16 +126,23 @@ $git push "nombre-remoto" "nombre-rama"
 <hr>
 <h3>USUARIO 1 FUSIONA PROYECTO</h3>
 <hr>
+
+```
 Para emperzar tenemos que saber que cambios se han realizado en todas las ramas del repositorio, para ello realizamos un fetch.
+```
 
 ![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2010-27-32.png)
 
+```
 Actualizamos main, para obtener los cambios realizados sobre la rama main, que incluyen los features realizados por usuario2, como antes hemos explicado.
+```
 
 ![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2010-27-49.png)
 
+```
 Ahora tenemos que obtener los datos de la rama devUsuario3. Cambiamos de rama y aplicamos un pull: $sudo git pull "repos-remoto" "rama-remota".
 Nos aparece un conflicto que tenemos que arreglar manualmente. Añadimos los archivos a staged. Comit.
+```
 
 ![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2011-08-49.png)
 
@@ -112,18 +150,25 @@ Nos aparece un conflicto que tenemos que arreglar manualmente. Añadimos los arc
 
 ![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2011-24-19.png)
 
+```
 Ahora que ya tenemos todo lo necesario cambiamos a la rama Principal "main". Sobre la que vamos a aplicar un merge de la rama devUsuario3.
 $sudo merge "rama-fusionar"
+```
 
 ![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2011-26-52.png)
 
+```
 Se modifica los archivos, para que todo funcione y se añaden los archivos al stage, seguido de commit.
+```
 
 ![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2011-36-25.png)
 
 ![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2011-36-37.png)
 
+```
 Realizamos un push para actualizar el repositorio.
+```
+
 ![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2011-39-32.png)
 
 
@@ -131,20 +176,25 @@ Realizamos un push para actualizar el repositorio.
 <h3>ETIQUETAR PROYECTO Y CREAR RAMA TEST </h3>
 <hr>
 
+```
 Se puede etiquetar un commit ya realizado, pero necesitamos conocer el Hash del comit para poder asociarlo.
 $git log --graph --all
+```
 
 ![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2012-03-42.png)
 
+```
 Creamos el tag: v1.0, para ello:
 git tag -a nombre_tag -m “Mensaje asociado al tag” hash_asociado_al_commit
-
+```
 ![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2012-06-03.png)
 
+```
 Como se puede observar si ejecutamos de nuevo el log. Aparece el commit de la fusión del proyecto con la tag v1.0.
-
+```
 ![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2012-06-24.png)
 
+```
 Para que las etiquetas aparezcan en el repositorio, relizaremos un:
 
 $git push origin --tags
@@ -152,6 +202,7 @@ $git push origin --tags
 Para crear la rama test. Se crea de modo local con $git branch "nombre-rama". No colocamos sobre la misma y realizamos un merge de main para tener una copia del proyecto contenido por main.
 
 Como no vamos a realizar cambios y solo queremos subirlo al repositorio remoto. $git push "nombre-remoto" "rama-remoto"
+```
 
 ![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2012-12-25.png)
 
