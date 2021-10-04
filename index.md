@@ -221,6 +221,10 @@ Los ganchos de Git son scripts de shell que se ejecutan automáticamente antes o
 ```
 mas info : https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks
 ```
+```
+Para realizar un hook, tenemos que declararlo dentro de la carpeta .git/.hooks.
+Podemos crearlo o editar uno de los ya existentes, quitandole la extensión .example.
+```
 
 ![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2013-33-54.png)
 
@@ -228,9 +232,22 @@ mas info : https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks
 
 ![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2013-44-54.png)
 
+```
+Observamos que efectivamente lanza la intrucción npm install.
+Como detalle a tener en cuenta, el archivo tine que tener permisos de ejecucion, 
+de lo contrario se produce un error y no se ejecuta.
+$sudo chmod 776 nombre-hook
+```
+
 ![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2015-47-09.png)
 
 ![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2015-47-35.png)
+
+```
+
+```
+
+
 
 ![alt text]()
 ![alt text]()
