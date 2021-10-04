@@ -74,15 +74,28 @@ el usuario1 ha realizado un Pull request, para adaptar ambos proyectos por lo qu
 
 ![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/devUsuario3/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2009-32-15.png)
 
+Usuario 3 crea su rama para desarrollar el feature, situandose en la rama devUsuario3.
+
 ![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/devUsuario3/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2009-32-47.png)
 
 ![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/devUsuario3/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2009-33-12.png)
+
+Se desarrolla el feature siguiendo las especificaciones del cliente. Una vez completado el proceso, añadimos los archivos al stage, commit y push para actualizar la rama en el remoto.
+
+$git add "nombre-archivo"
+$git commit -m "nombre comentario"
+$git push "nombre-remoto" "nombre-rama"
 
 ![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/devUsuario3/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2010-00-18.png)
 
 ![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/devUsuario3/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2010-00-49.png)
 
 ![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/devUsuario3/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2010-01-09.png)
+
+<hr>
+<h3>USUARIO 1 FUSIONA PROYECTO</h3>
+<hr>
+
 
 ![alt text]()
 ![alt text]()
