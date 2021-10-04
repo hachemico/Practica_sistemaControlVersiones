@@ -199,22 +199,39 @@ Para que las etiquetas aparezcan en el repositorio, relizaremos un:
 
 $git push origin --tags
 
-Para crear la rama test. Se crea de modo local con $git branch "nombre-rama". No colocamos sobre la misma y realizamos un merge de main para tener una copia del proyecto contenido por main.
+Para crear la rama test. Se crea de modo local con $git branch "nombre-rama". 
+No colocamos sobre la misma y realizamos un merge de main para tener una copia del proyecto contenido por main.
+Como no vamos a realizar cambios y solo queremos subirlo al repositorio remoto. 
 
-Como no vamos a realizar cambios y solo queremos subirlo al repositorio remoto. $git push "nombre-remoto" "rama-remoto"
+$git push "nombre-remoto" "rama-remoto"
 ```
 
-![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2012-12-25.png)
 
-![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2012-12-48.png)
+<hr>
+<h3> AUTOMATIZACIÓN HOOKS </h3>
+<hr>
+<h5> Qué son los Git Hooks? </h5>
 
+```
+¿Qué son los Git Hooks?
+Con Git podemos crear ramas de desarrollo, registrar cambios y tener un control absoluto sobre las versiones. Sin embargo, es posible automatizar este proceso. La automatización de Git funciona a nivel de programas y deployment. Y para eso existen los Hooks.
 
-![alt text]()
+Los ganchos de Git son scripts de shell que se ejecutan automáticamente antes o después de que Git ejecute un comando importante como Commit o Push. Para que un Hook funcione, es necesario otorgarle al sistema Unix los permisos de ejecución. Mediante el uso de estos scripts, podemos automatizar ciertas cosas.
+```
+```
+mas info : https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks
+```
 
-![alt text]()
-![alt text]()
-![alt text]()
-![alt text]()
+![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2013-33-54.png)
+
+![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2013-34-15.png)
+
+![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2013-44-54.png)
+
+![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2015-47-09.png)
+
+![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2015-47-35.png)
+
 ![alt text]()
 ![alt text]()
 ![alt text]()
