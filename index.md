@@ -1,11 +1,38 @@
 
-INCLUIR IMAGENES
+<h1> PRÁCTICA SISTEMAS CONTROL VERSIONES </h1>
 
-![alt text](http://url/to/img.png)
-![alt text]()
+<h3> ¿Que es GIT y GITHUB ?</h3>
+
+![alt text](https://i.blogs.es/bd50eb/github_logo/1366_2000.png)
+
+```
+Git es un sistema de control de versiones distribuido. Esto significa que un clon local del proyecto es un repositorio
+de control de versiones completo. Estos repositorios locales plenamente funcionales permiten trabajar sin conexión o de forma remota fácilmente. 
+Los desarrolladores confirman su trabajo localmente y, a continuación, sincronizan su copia del repositorio con la copia en el servidor.
+Este paradigma es distinto del control de versiones centralizado, donde los clientes deben sincronizar el código con 
+un servidor antes de crear nuevas versiones.
+
+La flexibilidad y popularidad de Git lo convierten en una excelente opción para cualquier equipo. 
+Muchos desarrolladores y egresados de la universidad ya saben cómo usar Git. 
+La comunidad de usuarios de Git ha creado muchos recursos para entrenar a los desarrolladores y la popularidad de Git 
+facilita la ayuda cuando es necesario. Casi todos los entornos de desarrollo tienen compatibilidad con Git y las herramientas de 
+línea de comandos de Git se ejecutan en todos los sistemas operativos principales.
+
+GITHUB
+
+Github una de las principales plataformas para crear proyectos abiertos de herramientas y aplicaciones, 
+y se caracteriza sobre todo por sus funciones colaborativas que ayudan a que todos puedan aportar su 
+granito de arena para mejorar el código.
+
+Utiliza el sistema de control de versiones Git diseñado por Linus Torvalds. Un sistema de gestión de versiones 
+es ese con el que los desarrolladores pueden administrar su proyecto, ordenando el código de cada una de las 
+nuevas versiones que sacan de sus aplicaciones para evitar confusiones. 
+Así, al tener copias de cada una de las versiones de su aplicación, no se perderán los estados anteriores cuando 
+se va a actualizar.
 
 
-<hr>
+```
+
 <h3>DESAROLLO INICIAL DEL PROYECTO</h3>
 <hr>
 
@@ -18,6 +45,7 @@ Creamos un repositorio en Github y el usuario1 se clona el repositorio.
 ```
 Creamos la rama devUsuario1, aunque realmente la desarrollamos desde main.
 ```
+
 ![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-09-28%2016-13-42.png)
 
 ```
@@ -276,40 +304,4 @@ Realizamos pruebas para confirmar que funciona.
 
 
 
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/hachemico/Practica_sistemaControlVersiones/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/hachemico/Practica_sistemaControlVersiones/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
