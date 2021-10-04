@@ -95,16 +95,33 @@ $git push "nombre-remoto" "nombre-rama"
 <hr>
 <h3>USUARIO 1 FUSIONA PROYECTO</h3>
 <hr>
+Para emperzar tenemos que saber que cambios se han realizado en todas las ramas del repositorio, para ello realizamos un fetch.
 
+![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2010-27-32.png)
+
+Actualizamos main, para obtener los cambios realizados sobre la rama main, que incluyen los features realizados por usuario2, como antes hemos explicado.
+
+![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2010-27-49.png)
+
+Ahora tenemos que obtener los datos de la rama devUsuario3. Cambiamos de rama y aplicamos un pull: $sudo git pull "repos-remoto" "rama-remota".
+Nos aparece un conflicto que tenemos que arreglar manualmente. Añadimos los archivos a staged. Comit.
+
+![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2011-08-49.png)
+
+![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2011-24-08.png)
+
+Ahora que ya tenemos todo lo necesario cambiamos a la rama Principal "main". Sobre la que vamos a aplicar un merge de la rama devUsuario3.
+$sudo merge "rama-fusionar"
+
+![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2011-24-19.png)
+
+![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2011-26-52.png)
+
+![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2011-36-25.png)
+
+![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-04%2011-36-37.png)
 
 ![alt text]()
-![alt text]()
-
-![alt text]()
-![alt text]()
-![alt text]()
-![alt text]()
-
 
 
 ## Welcome to GitHub Pages
