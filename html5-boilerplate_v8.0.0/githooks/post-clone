@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "ejecutando hook post-clone / npm install"
+
+npm install

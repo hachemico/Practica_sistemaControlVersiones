@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "Ejecutando post-checkout npm install auto"
+
+npm install

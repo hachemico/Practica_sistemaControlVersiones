@@ -1,0 +1,9 @@
+#!/bin/bash
+
+mensajeCommit=$1
+START_LINE=`head -n1 $mensajeCommit`
+PATTERN="^MOTIVO DEL COMMIT:.*IMPLEMENTACION:.*.$"
+if ! [[ "$START_LINE" =~ $PATTERN ]]; then
+  echo "Error Commit Message, Example: MOTIVO DEL COMMIT: texto-ejemplo IMPLEMENTACIÓN: descripcion-ejemplo "
+  exit 1
+fi
