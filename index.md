@@ -5,7 +5,9 @@ INCLUIR IMAGENES
 ![alt text]()
 
 
-
+<hr>
+<h3>DESAROLLO INICIAL DEL PROYECTO</h3>
+<hr>
 
 Creamos un repositorio en Github y el usuario1 se clona el repositorio.
 ![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/main/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-09-28%2016-05-12.png)
@@ -33,20 +35,33 @@ Realizamos un push para subir los archivos generados al repositorio remoto. $git
 Como vemos a continuación vemos que el remoto de Github queda configurado con las ramas.
 
 ![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/devUsuario2/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-03%2019-58-57.png)
-
-DESARROLLO DEL FEATURE "CONTENIDO HTML" y "ATRIBUTOS HTML"  USUARIO 2
 <hr>
+<h3>DESARROLLO DEL FEATURE "CONTENIDO HTML" y "ATRIBUTOS HTML"  USUARIO 2</h3>
+<hr>
+
+Usuario 2 clona el repositorio de la rama principal del proyecto. Cambia a la rama devUsuario2, desde la cual trabajará.
 
 ![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/devUsuario2/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-03%2020-04-22.png)
 
+Con los features desarrollados, se añaden los archivos al stage, previo al commit.
+$git add "nombre-archivo"
+$git commit -m "comentario-commit"
+
 ![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/devUsuario2/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-03%2022-00-06.png)
 
+Con esto hacemos un push al remoto, teniendo en cuenta, la rama a la que queremos subir los cambios, en este caso estamos
+trabajando con la rama devUsuario2, y queremos actualizar la rama en /remote/origin/devUsuario2, por lo que:
+
+$sudo git push "nombre-remoto" "nombre-rama"
+
 ![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/devUsuario2/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-03%2022-12-29.png)
+
+Como podemos observar, se ha hecho un commit en la rama correspondiente devUsuario2.
 
 ![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/devUsuario2/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-03%2022-13-02.png)
 
 
-![alt text](https://github.com/hachemico/Practica_sistemaControlVersiones/blob/devUsuario2/html5-boilerplate_v8.0.0/assets_GitPages/Captura%20de%20pantalla%20de%202021-10-03%2022-13-33.png)
+![alt text]()
 
 
 ![alt text]()
